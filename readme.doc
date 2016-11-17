@@ -1,0 +1,42 @@
+List of files in the system:
+1)addItem.php
+2)buying.htm
+3)buying.js
+4)buying.php
+5)buyonline.htm
+6)cancelPurchase.php
+7)cart.xsl
+8)confirmPurchase.php
+9)customerLoginSubmit.php
+10)customerSession.php
+11)goods.xsl
+12)listing.htm
+13)login.htm
+14)login.js
+15)logout.htm
+16)logout.js
+17)logout.php
+18)managerSession.php
+19)mlogin.htm
+20)mlogin.js
+21)mlogin.php
+22)processing.htm
+23)processing.js
+24)processing.php
+25)processing.xsl
+26)processingRemove.php
+27)register.htm
+28)register.js
+29)registersubmit.php
+30)removeItem.php
+31)goods.xml
+32)customer.xml
+33)manager.txt
+
+In order to view the items in the buying.htm page, customer has to register into the system first via register.htm page. User can find the sitemap three links in buyonline.htm page. After registration, customer will be redirected to buyonline.htm page. They can then login to the system from login.htm page, which is available in buyonling.htm page. After successful login, customer will be redirected to buying.htm page. Customer will see the items to buy in this page. They can add item to cart, on clicking add item to cart, the cart will appear. The buying page gets refreshed in every 10 seconds. So, after a item is being added into the cart it will update quantity within 10 seconds. Customer can also remove item from cart. This will be instantly reflected. Customer can see the total amount to be paid instantly in the end of the cart. If the customer confirms to buy, total amount due with message will be shown. The quantity, hold and sold values are updated in the goods.xml then. 
+Without logging into the system, customer can not view items in buying.htm page.
+
+As customer logs out of the system, session is destroyed and redirected to the buyonline.htm page.
+
+Manager need to login into the system in order to add item and process items.
+If the manager is not logged in, they can not process or add items. When manager adds new item, it is being written into the xml file. When manager logs out, it takes the manager back to buyonline.htm page.   

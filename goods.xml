@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../htdocs/Assignment2/goods.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../htdocs/Assignment2/cart.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../htdocs/Assignment2/processing.xsl"?>
+<Goods>
+  
+  <good>
+    <id>9</id>
+    <name/>
+    <price/>
+    <quantity/>
+    <hold>0</hold>
+    <sold>0</sold>
+    <description/>
+  </good>
+  <good>
+    <id>8</id>
+    <name>Coca cola zero</name>
+    <price>2.5</price>
+    <quantity>45</quantity>
+    <hold>0</hold>
+    <sold>0</sold>
+    <description>250 ml coca cola zero for refreshing your soul.</description>
+  </good>
+  <good>
+    <id>7</id>
+    <name>Canola Oil</name>
+    <price>4.00</price>
+    <quantity>20</quantity>
+    <hold>0</hold>
+    <sold>0</sold>
+    <description>free range 1 Liter canola oil for friends and family. adfasf asdfasf asdfdadsf asdsdfasdfa asdsdfasdf asdsdfadsf asdsfadsf hello</description>
+  </good>
+  <good>
+    <id>6</id>
+    <name>Cookies</name>
+    <price>2.69</price>
+    <quantity>16</quantity>
+    <hold>0</hold>
+    <sold>2</sold>
+    <description>Cookie biscuit to indulge yourself.</description>
+  </good>
+  <good>
+    <id>4</id>
+    <name>Yo berries </name>
+    <price>12</price>
+    <quantity>22</quantity>
+    <hold>0</hold>
+    <sold>0</sold>
+    <description>Yo berries pure sweet and deliciously yogurt.</description>
+  </good>
+  <good>
+    <id>3</id>
+    <name>Banana</name>
+    <price>2.50</price>
+    <quantity>85</quantity>
+    <hold>0</hold>
+    <sold>3</sold>
+    <description>Natural banana.</description>
+  </good>
+  <good>
+    <id>2</id>
+    <name>Roasted Peanut</name>
+    <price>0.99</price>
+    <quantity>40</quantity>
+    <hold>0</hold>
+    <sold>1</sold>
+    <description>It's a roasted salted peanut.</description>
+  </good>
+  <good>
+    <id>1</id>
+    <name>Samsung Galaxy S4</name>
+    <price>629</price>
+    <quantity>488</quantity>
+    <hold>0</hold>
+    <sold>3</sold>
+    <description>4g Mobile</description>
+  </good>
+</Goods>
